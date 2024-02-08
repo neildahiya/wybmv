@@ -36,7 +36,7 @@ noBtn.addEventListener('click', function() {
     changeableImage.src = images[currentImageIndex];
     if (noClickCount < 8) {
         subtext.textContent = subtexts[noClickCount - 1];
-        yesBtn.style.padding = `${10 + noClickCount * 20}px ${20 + noClickCount * 30}px`;
+        yesBtn.style.padding = `${10 + noClickCount * 10}px ${20 + noClickCount * 30}px`;
         yesBtn.style.fontSize = `${20 + noClickCount * 10}px`
         yesBtn.classList.add('button-pop'); // Apply the animation class
         setTimeout(() => yesBtn.classList.remove('button-pop'), 200); // Remove the class after the animation completes
