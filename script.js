@@ -14,7 +14,7 @@ const images = [
     "https://media1.tenor.com/m/aezX5c1dFfoAAAAC/spider-man-norman-osborn.gif",
     "https://media.tenor.com/WHhQT0n06poAAAAj/pointing-gun-ybn-nahmir.gif",
     "https://www.shutterstock.com/image-photo/portrait-handsome-young-man-holding-260nw-654933640.jpg",
-    "https://previews.123rf.com/images/snak/snak1611/snak161101713/65536861-private-military-company-operator-with-rpg-rocket-launcher-isolated-on-white.jpg"
+    "https://annoyingrambles.files.wordpress.com/2013/11/loading-gun.gif"
 
 ]; // Add more image paths
 let currentImageIndex = 0;
@@ -37,7 +37,9 @@ noBtn.addEventListener('click', function() {
     if (noClickCount < 8) {
         subtext.textContent = subtexts[noClickCount - 1];
         yesBtn.style.padding = `${10 + noClickCount * 20}px ${20 + noClickCount * 30}px`;
-        yesBtn.style.fontSize = `${20 + noClickCount*5}px`
+        yesBtn.style.fontSize = `${20 + noClickCount * 10}px`
+        yesBtn.classList.add('button-pop'); // Apply the animation class
+        setTimeout(() => yesBtn.classList.remove('button-pop'), 200); // Remove the class after the animation completes
     } else {
         alert("Let's try again!");
         noClickCount = 0;
