@@ -12,8 +12,8 @@ const images = [
     "https://i.pinimg.com/originals/f3/14/2a/f3142a721eb51893bfee727aaa1fa4ea.gif",
     "https://gifdb.com/images/thumbnail/pokemon-pikachu-will-you-be-my-valentine-p6pjjlhcdeki4xrw.gif",
     "https://media1.tenor.com/m/aezX5c1dFfoAAAAC/spider-man-norman-osborn.gif",
-    "https://media.tenor.com/WHhQT0n06poAAAAj/pointing-gun-ybn-nahmir.gif",
     "https://www.shutterstock.com/image-photo/portrait-handsome-young-man-holding-260nw-654933640.jpg",
+    "https://media.tenor.com/WHhQT0n06poAAAAj/pointing-gun-ybn-nahmir.gif",
     "https://annoyingrambles.files.wordpress.com/2013/11/loading-gun.gif"
 
 ]; // Add more image paths
@@ -41,7 +41,7 @@ noBtn.addEventListener('click', function() {
         yesBtn.classList.add('button-pop'); // Apply the animation class
         setTimeout(() => yesBtn.classList.remove('button-pop'), 200); // Remove the class after the animation completes
     } else {
-        alert("Let's try again!");
+        alert("Let's try again! We're in this together!");
         noClickCount = 0;
         currentImageIndex = 0
         changeableImage.src = images[currentImageIndex];
@@ -49,5 +49,3 @@ noBtn.addEventListener('click', function() {
         subtext.textContent = "Select your answer";
     }
 });
-
-
