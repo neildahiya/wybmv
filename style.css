@@ -1,0 +1,57 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #FFEAFD;
+}
+
+.container {
+    text-align: center;
+}
+
+#changeableImage {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.yes {
+    background-color: green;
+    color: white;
+    border: none;
+}
+
+.no {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+#confettiWrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
