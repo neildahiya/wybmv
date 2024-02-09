@@ -30,7 +30,7 @@ yesBtn.addEventListener('click', function() {
     // Add confetti animation here if desired
 });
 
-noBtn.addEventListener('click', function() {
+noBtn.addEventListener('click', function() { 
     noClickCount++;
     currentImageIndex = (currentImageIndex + 1) % images.length;
     changeableImage.src = images[currentImageIndex];
