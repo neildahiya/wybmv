@@ -8,13 +8,14 @@ let noClickCount = 0;
 const subtexts = ["Are you sure?", "Think again!", "Give it another shot!", "Surely, you jest!", "Why not?", "Pretty please?", "Consider again!", "It's a lovely choice!", "Last chance!"];
 const images = [
     "https://media.tenor.com/K_E6ORTmXMoAAAAM/milk-and-mocha-love.gif",
-    "https://i.pinimg.com/originals/8f/eb/fb/8febfb67f2f0cafe9af084e698fa16e0.gif",
     "https://i.pinimg.com/originals/f3/14/2a/f3142a721eb51893bfee727aaa1fa4ea.gif",
+    "https://i0.wp.com/media4.giphy.com/media/3oD3YQ350ESVrAFLH2/giphy.gif",
+    "https://i.pinimg.com/originals/8f/eb/fb/8febfb67f2f0cafe9af084e698fa16e0.gif",
     "https://gifdb.com/images/thumbnail/pokemon-pikachu-will-you-be-my-valentine-p6pjjlhcdeki4xrw.gif",
-    "https://media1.tenor.com/m/aezX5c1dFfoAAAAC/spider-man-norman-osborn.gif",
     "https://www.shutterstock.com/image-photo/portrait-handsome-young-man-holding-260nw-654933640.jpg",
+    "https://media1.tenor.com/m/aezX5c1dFfoAAAAC/spider-man-norman-osborn.gif",
     "https://media.tenor.com/WHhQT0n06poAAAAj/pointing-gun-ybn-nahmir.gif",
-    "https://annoyingrambles.files.wordpress.com/2013/11/loading-gun.gif"
+    // "https://annoyingrambles.files.wordpress.com/2013/11/loading-gun.gif"
 
 ]; // Add more image paths
 let currentImageIndex = 0;
