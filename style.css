@@ -26,12 +26,14 @@ button {
 
 .yes {
     background-color: green;
+    font-weight: bold;
     color: white;
     border: none;
 }
 
 .no {
     background-color: red;
+    font-weight: bold;
     color: white;
     border: none;
 }
