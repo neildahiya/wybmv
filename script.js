@@ -25,7 +25,7 @@ yesBtn.addEventListener('click', function() {
         <div class="container">
             <img src="https://i.pinimg.com/originals/02/f8/da/02f8dac393522858d5e22ef1d708e678.gif" alt="Celebratory Image" style="max-width: 400px; height: auto;">
             <h1>See you soon! ❤️</h1>
-            <p>Now take a screenshot & send it to me, will you babe?!</p>
+            <p>Now take a screenshot & send it to @neildahiya, will you babe?!</p>
         </div>
     `;
     // Add confetti animation here if desired
